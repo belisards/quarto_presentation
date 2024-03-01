@@ -14,7 +14,7 @@ You can check the presentation template here: [https://belisards.github.io/quart
 
 1. Fork this repository.
 
-2. Edit the file `index.qmd`.
+2. Edit the file `index.qmd`. Tip: you can press dot (`.`) to edit the repository on Github using a web-based version of VS Code.
 
 3. Click "Settings" in your repository, then choose "Actions" in the menu. Set "Workflow permissions" to "Read and write permissions".
 
