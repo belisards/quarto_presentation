@@ -4,6 +4,8 @@ Boilerplate code for Quarto presentations integrated with GitHub Actions.
 
 You can check the presentation template here: [https://belisards.github.io/quarto_presentation/](https://belisards.github.io/quarto_presentation/)
 
+This demo presentation was copied from [Quarto website](https://quarto.org/docs/presentations/).
+
 # Files
 
 `.github/workflows/publish.yaml`: Render the Quarto document after every push to the repository. The HTML files are exported to the `gh-pages` branch.
