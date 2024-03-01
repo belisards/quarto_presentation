@@ -2,7 +2,7 @@
 
 Boilerplate code for Quarto presentations integrated with GitHub Actions.
 
-You can check the presentation here: [https://belisards.github.io/quarto_presentation/](https://belisards.github.io/quarto_presentation/)
+You can check the presentation template here: [https://belisards.github.io/quarto_presentation/](https://belisards.github.io/quarto_presentation/)
 
 # Files
 
