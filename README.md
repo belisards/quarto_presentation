@@ -14,7 +14,7 @@ This demo presentation was copied from [Quarto website](https://quarto.org/docs/
 
 # Instructions
 
-1. Fork this repository.
+1. Fork this repository. Uncheck the option "Copy the master branch only".
 
 2. Edit the file `index.qmd`. Tip: you can press dot (`.`) to edit the repository on Github using a web-based version of VS Code.
 
