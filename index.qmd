@@ -14,7 +14,7 @@ format:
 
 # Overview
 
-Check the Quarto website to see a complete demo of Quarto presentation features.
+Check the [Quarto website](https://quarto.org/docs/) to see a complete demo of Quarto presentation features.
 
 
 ## Preview Links
