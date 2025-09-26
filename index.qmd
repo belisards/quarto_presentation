@@ -30,3 +30,48 @@ Use the `preview-links` option to open links in an iframe on top of your slides.
 ::: footer
 Learn more: [Preview Links](https://quarto.org/docs/presentations/revealjs/presenting.html#preview-links)
 :::
+
+# Running R Code
+
+## Simple R Examples
+
+Here are some basic R operations you can run:
+
+```{r}
+#| echo: true
+#| eval: true
+
+# Basic arithmetic
+x <- 5 + 3
+print(x)
+
+# Create a vector
+numbers <- c(1, 2, 3, 4, 5)
+print(numbers)
+
+# Calculate mean
+mean_value <- mean(numbers)
+print(paste("Mean:", mean_value))
+```
+
+## Data Visualization
+
+```{r}
+#| echo: true
+#| eval: true
+#| fig-height: 4
+
+library(ggplot2)
+
+# Simple scatter plot
+data <- data.frame(
+  x = 1:10,
+  y = (1:10)^2 + rnorm(10, 0, 5)
+)
+
+ggplot(data, aes(x = x, y = y)) +
+  geom_point(size = 3, color = "blue") +
+  geom_smooth(method = "lm", se = FALSE, color = "red") +
+  labs(title = "Simple Scatter Plot", x = "X values", y = "Y values") +
+  theme_minimal()
+```
