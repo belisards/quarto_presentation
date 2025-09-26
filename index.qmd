@@ -31,3 +31,15 @@ Use the `preview-links` option to open links in an iframe on top of your slides.
 Learn more: [Preview Links](https://quarto.org/docs/presentations/revealjs/presenting.html#preview-links)
 :::
 
+# R Example
+
+## Simple Calculation
+
+```{r}
+#| echo: true
+
+# Simple arithmetic
+result <- 2 + 3
+print(paste("Result:", result))
+```
+
