@@ -2,15 +2,20 @@
 title: "Presentation title"
 author: "Author name"
 format:
-  revealjs: 
+  revealjs:
     theme: simple
     incremental: true
     slide-number: true
-    chalkboard: 
+    chalkboard:
       buttons: true
     preview-links: auto
     css: styles.css
 ---
+
+```{r setup, include=FALSE}
+if (!require("knitr")) install.packages("knitr")
+if (!require("rmarkdown")) install.packages("rmarkdown")
+```
 
 # Overview
 
