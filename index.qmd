@@ -54,24 +54,22 @@ mean_value <- mean(numbers)
 print(paste("Mean:", mean_value))
 ```
 
-## Data Visualization
+## Basic Plotting
 
 ```{r}
 #| echo: true
 #| eval: true
 #| fig-height: 4
 
-library(ggplot2)
+# Simple plot using base R
+x <- 1:10
+y <- x^2
 
-# Simple scatter plot
-data <- data.frame(
-  x = 1:10,
-  y = (1:10)^2 + rnorm(10, 0, 5)
-)
-
-ggplot(data, aes(x = x, y = y)) +
-  geom_point(size = 3, color = "blue") +
-  geom_smooth(method = "lm", se = FALSE, color = "red") +
-  labs(title = "Simple Scatter Plot", x = "X values", y = "Y values") +
-  theme_minimal()
+plot(x, y,
+     type = "b",
+     col = "blue",
+     pch = 16,
+     main = "Simple Plot with Base R",
+     xlab = "X values",
+     ylab = "Y values")
 ```
